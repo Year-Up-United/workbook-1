@@ -85,9 +85,15 @@ public class MathApp {
         // Question 7
         System.out.println("Find and display a random number between 0 and 1");
         double randomnumber = Math.random();
-        
+
         System.out.println("The answer is " + randomnumber);
 
+
+        ////////
+        int id = 10135;
+        String name = "Brandon Plyers";
+        float pay = 5239.77f;
+        System.out.printf("%s (id: %d) $%.2f" , name, id, pay);
 
 
 
