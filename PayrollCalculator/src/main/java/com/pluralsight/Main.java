@@ -10,15 +10,14 @@ public class Main {
         name = payscanner.nextLine();
 
         System.out.println("How many hours did you work?");
-        double hourWage = payscanner.nextInt();
+        double hoursWorked = payscanner.nextInt();
 
         System.out.println("What is your pay rate?");
-        double hourpay = payscanner.nextInt();
+        double payRate = payscanner.nextInt();
 
-        System.out.printf("Hello %s, your gross pay is $%.0f",name, hourWage);
-
-
-
-
+        System.out.printf("Hello %s, your gross pay is $%.0f", name, hoursWorked);
     }
+
 }
+
+
