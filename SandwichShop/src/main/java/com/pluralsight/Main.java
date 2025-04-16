@@ -2,7 +2,7 @@ package com.pluralsight;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Hello, Customer!");
 
         // add scanner for input
         Scanner scanner = new Scanner(System.in);
@@ -86,8 +86,6 @@ public class Main {
         } else if (age >= 65 && choice == 2) {
             price -= price * 0.20;  // Apply 20% discount for large size
         }
-
-
 
 
 
